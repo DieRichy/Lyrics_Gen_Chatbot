@@ -19,22 +19,22 @@ This document outlines the project directory layout for the lyric chatbot system
 
 ```
 project/
-├── models/
-│   ├── generator/           # Lyric generation model weights (RL-fine-tuned GPT-2)
-│   ├── genre_classifier/    # Genre classification model
-│   ├── emotion_classifier/  # Emotion classification model
-│   └── topic_classifier/    # Topic classification model
 │
-├── data/
-│   └── prompts.txt          # Seed prompts (e.g., "Write a pop song about love")
+├── models/
+│   ├── generator_base/                          # GPT-2 model fine-tuned on lyrics (pre-RL baseline)
+│   ├── reinforce_finetuned_generator_best/      # Best-performing RL-fine-tuned generator (with full reward set)
+│   └── reinforce_finetuned_generator_best_no3/  # RL model variant (e.g., without 3rd reward or altered config)
 │
 ├── src/
-│   ├── slot_manager.py      # Validates and normalizes user inputs
-│   ├── lyric_generator.py   # Chatbot integration: loads models and generates lyrics
-│   └── app.py               # Streamlit frontend: handles chat interface
+│   ├── slot_manager.py      # Validates and normalizes user inputs (genre, topic, emotion, length)
+│   ├── lyric_generator.py   # Loads and runs the generator model based on input slots
+│   └── __pycache__/         # Auto-generated Python cache files
 │
-├── requirements.txt         # List of Python dependencies
-└── README.md                # Project overview, setup, usage, and options
+├── app.py                   # Streamlit app: handles chatbot interface and real-time lyric generation
+│
+├── requirements.txt         # Python dependencies needed to run the app and models
+├── README.md                # Project overview, setup instructions, and usage guide
+└── Structure Description.txt# Directory and file purpose explanations (this file)
 ```
 
 ## ⚙️ Setup Instructions
