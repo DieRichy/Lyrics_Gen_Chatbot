@@ -14,10 +14,11 @@ This project is a **Streamlit-based lyric chatbot**, designed to generate song l
 Under the hood: a GPT-2 model fine-tuned via RL to enhance lyric structure, emotional depth, and stylistic accuracy.
 
 ---
+
 This document outlines the project directory layout for the lyric chatbot system, highlighting the frontend, model assets, dependencies, and documentation. Although the generator model has been fine-tuned offline using reinforcement learning (RL), the RL training code is not included in this repository.
 
+```
 project/
-│
 ├── models/
 │   ├── generator/           # Lyric generation model weights (RL-fine-tuned GPT-2)
 │   ├── genre_classifier/    # Genre classification model
@@ -34,28 +35,8 @@ project/
 │
 ├── requirements.txt         # List of Python dependencies
 └── README.md                # Project overview, setup, usage, and options
+```
 
-models/
-
-generator/: Contains the GPT-2–based lyric generator weights that have been fine-tuned via RL to improve lyric quality and adherence to desired styles.
-
-genre_classifier/: Fine-tuned model for classifying lyrics into genres (Pop, Hip-Hop).
-
-emotion_classifier/: Model for predicting emotional tone (GoEmotions 28 categories) in lyrics.
-
-topic_classifier/: Model for detecting topics (10 predefined categories) in lyrics.
-
-data/
-
-prompts.txt: Plain text file listing example prompts, one per line, used to initialize lyric generation (e.g., "A heartbroken ballad under the rain").
-
-src/
-
-slot_manager.py: Manages and validates chat slots (genre, emotion, topic, length), including normalization and fuzzy matching.
-
-lyric_generator.py: Core chatbot module: loads all models, constructs prompts, and generates lyrics in response to user input.
-
-app.py: Streamlit application file that provides the chat interface. It calls lyric_generator.py based on user inputs and displays generated lyrics.
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -160,12 +141,11 @@ pip install --upgrade streamlit
 - [Streamlit Documentation](https://docs.streamlit.io/)
 
 ---
+## 👨‍💻 Author
 
-Made with ❤️ for musicians, poets, and dreamers.
-
----
-
+Frank (MTech EBA, NUS 2025)
 
 ---
+
 
 
