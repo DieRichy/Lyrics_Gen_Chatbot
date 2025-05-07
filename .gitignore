@@ -1,0 +1,7 @@
+# Ignore model folders and large files
+models/
+*.safetensors
+*.pt
+*.bin
+__pycache__/
+.DS_Store
