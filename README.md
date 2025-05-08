@@ -60,7 +60,7 @@ Launch the chatbot locally:
 
 ```bash
 cd "your/path/to/project"
-streamlit run src/app.py
+streamlit run app.py
 ```
 
 🎧 This opens a simple chat UI where you can interactively:
