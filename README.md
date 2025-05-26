@@ -37,10 +37,10 @@ project/
 └── Structure Description.txt# Directory and file purpose explanations (this file)
 ```
 ## DEMO Lyrics
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/c87b9c9c-95d3-4b53-94aa-377be702f4a1" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/c87b9c9c-95d3-4b53-94aa-377be702f4a1" />
 
 ## Lyrics Comparison
-<img width="470" alt="image" src="https://github.com/user-attachments/assets/c30e053b-638f-4896-b95e-f8a316fea136" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/c30e053b-638f-4896-b95e-f8a316fea136" />
 
 ## DEMO Video
 
