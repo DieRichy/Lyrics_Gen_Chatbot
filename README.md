@@ -36,6 +36,16 @@ project/
 ├── README.md                # Project overview, setup instructions, and usage guide
 └── Structure Description.txt# Directory and file purpose explanations (this file)
 ```
+## DEMO Lyrics
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/c87b9c9c-95d3-4b53-94aa-377be702f4a1" />
+
+## Lyrics Comparison
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/c30e053b-638f-4896-b95e-f8a316fea136" />
+
+## DEMO Video
+
+https://github.com/user-attachments/assets/e783ddcd-861a-4cc3-8792-750070d42a4f
+
 
 ## ⚙️ Setup Instructions
 
